@@ -16,7 +16,7 @@ function App() {
       id: 2,
       title: "Estudar inglês",
       description: "Estudar inglês técnico",
-      isCompleted: false
+      isCompleted: true
     },
     {
       id: 3,
