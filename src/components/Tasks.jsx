@@ -6,7 +6,6 @@ function Tasks({ tasks, onTaskClick, onDeleteTaskClick }) {
     const navigate = useNavigate();
 
     function onSeeDetailsClick(task) {
-        //todo: validate this query params, it maybe should be context api
         const query = new URLSearchParams();
         query.set("title", task.title);
         query.set("description", task.description);
