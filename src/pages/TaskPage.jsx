@@ -18,8 +18,7 @@ function TaskPage() {
                         className="absolute left-0 top-0 bottom-0 mb-6 text-slate-100">
                         <ChevronLeftIcon />
                     </button>
-                    <MainTitle title={'Detalhes da Tarefa'} />
-                    {/* <h1 className="text-3xl text-slate-100 font-bold text-center">Detalhes da Tarefa</h1> */}
+                    <MainTitle>Detalhes da Tarefa</MainTitle>
                 </div>
                 <div className="bg-slate-200 p-4 rounded-md">
                     <h2 className="text-xl font-bold text-slate-600">{title}</h2>

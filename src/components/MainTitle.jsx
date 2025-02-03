@@ -1,7 +1,7 @@
-function MainTitle(props) {
+function MainTitle({children}) {
 
     return (
-        <h1 className="text-3xl text-slate-100 font-bold text-center">{props.title}</h1>
+        <h1 className="text-3xl text-slate-100 font-bold text-center">{children}</h1>
     )
 }
 
